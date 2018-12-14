@@ -1,0 +1,6 @@
+framework module Pods_PagerProblem {
+  umbrella header "Pods-PagerProblem-umbrella.h"
+
+  export *
+  module * { export * }
+}

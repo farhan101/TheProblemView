@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		23C7B2BC21C3E14E00B807B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C7B2BB21C3E14E00B807B5 /* AppDelegate.swift */; };
-		23C7B2BE21C3E14E00B807B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C7B2BD21C3E14E00B807B5 /* ViewController.swift */; };
 		23C7B2C121C3E14E00B807B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C7B2BF21C3E14E00B807B5 /* Main.storyboard */; };
 		23C7B2C321C3E14F00B807B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23C7B2C221C3E14F00B807B5 /* Assets.xcassets */; };
 		23C7B2C621C3E14F00B807B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C7B2C421C3E14F00B807B5 /* LaunchScreen.storyboard */; };
+		23C7B2CE21C3E4C400B807B5 /* PagerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C7B2CD21C3E4C400B807B5 /* PagerBase.swift */; };
+		23C7B2D021C3F0F400B807B5 /* TheProblemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C7B2CF21C3F0F400B807B5 /* TheProblemView.swift */; };
+		23C7B2D221C3F1DA00B807B5 /* ViewToAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C7B2D121C3F1DA00B807B5 /* ViewToAdd.swift */; };
+		5F5CE22370D89098E4AAC003 /* Pods_PagerProblem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B001205F41643E77C85DEDB7 /* Pods_PagerProblem.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D9CCA02CB78A3DF4CA5C821 /* Pods-PagerProblem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PagerProblem.release.xcconfig"; path = "Pods/Target Support Files/Pods-PagerProblem/Pods-PagerProblem.release.xcconfig"; sourceTree = "<group>"; };
 		23C7B2B821C3E14E00B807B5 /* PagerProblem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PagerProblem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23C7B2BB21C3E14E00B807B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		23C7B2BD21C3E14E00B807B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		23C7B2C021C3E14E00B807B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		23C7B2C221C3E14F00B807B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23C7B2C521C3E14F00B807B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23C7B2C721C3E14F00B807B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23C7B2CD21C3E4C400B807B5 /* PagerBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerBase.swift; sourceTree = "<group>"; };
+		23C7B2CF21C3F0F400B807B5 /* TheProblemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheProblemView.swift; sourceTree = "<group>"; };
+		23C7B2D121C3F1DA00B807B5 /* ViewToAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewToAdd.swift; sourceTree = "<group>"; };
+		75A38DD29DD7E5F429FB327B /* Pods-PagerProblem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PagerProblem.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PagerProblem/Pods-PagerProblem.debug.xcconfig"; sourceTree = "<group>"; };
+		B001205F41643E77C85DEDB7 /* Pods_PagerProblem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PagerProblem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F5CE22370D89098E4AAC003 /* Pods_PagerProblem.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,8 @@
 			children = (
 				23C7B2BA21C3E14E00B807B5 /* PagerProblem */,
 				23C7B2B921C3E14E00B807B5 /* Products */,
+				B291E86A6EED69916770E291 /* Pods */,
+				61F7C725C2C4E2D6DEF538CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +66,32 @@
 			isa = PBXGroup;
 			children = (
 				23C7B2BB21C3E14E00B807B5 /* AppDelegate.swift */,
-				23C7B2BD21C3E14E00B807B5 /* ViewController.swift */,
+				23C7B2D121C3F1DA00B807B5 /* ViewToAdd.swift */,
+				23C7B2CF21C3F0F400B807B5 /* TheProblemView.swift */,
+				23C7B2CD21C3E4C400B807B5 /* PagerBase.swift */,
 				23C7B2BF21C3E14E00B807B5 /* Main.storyboard */,
 				23C7B2C221C3E14F00B807B5 /* Assets.xcassets */,
 				23C7B2C421C3E14F00B807B5 /* LaunchScreen.storyboard */,
 				23C7B2C721C3E14F00B807B5 /* Info.plist */,
 			);
 			path = PagerProblem;
+			sourceTree = "<group>";
+		};
+		61F7C725C2C4E2D6DEF538CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B001205F41643E77C85DEDB7 /* Pods_PagerProblem.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B291E86A6EED69916770E291 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75A38DD29DD7E5F429FB327B /* Pods-PagerProblem.debug.xcconfig */,
+				1D9CCA02CB78A3DF4CA5C821 /* Pods-PagerProblem.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23C7B2CA21C3E14F00B807B5 /* Build configuration list for PBXNativeTarget "PagerProblem" */;
 			buildPhases = (
+				39EE0452785CEA031F067D07 /* [CP] Check Pods Manifest.lock */,
 				23C7B2B421C3E14E00B807B5 /* Sources */,
 				23C7B2B521C3E14E00B807B5 /* Frameworks */,
 				23C7B2B621C3E14E00B807B5 /* Resources */,
+				64AAB0942B686E5F5DA77680 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +162,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		39EE0452785CEA031F067D07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PagerProblem-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64AAB0942B686E5F5DA77680 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PagerProblem/Pods-PagerProblem-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStrip.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PagerProblem/Pods-PagerProblem-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		23C7B2B421C3E14E00B807B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23C7B2BE21C3E14E00B807B5 /* ViewController.swift in Sources */,
+				23C7B2D021C3F0F400B807B5 /* TheProblemView.swift in Sources */,
+				23C7B2D221C3F1DA00B807B5 /* ViewToAdd.swift in Sources */,
+				23C7B2CE21C3E4C400B807B5 /* PagerBase.swift in Sources */,
 				23C7B2BC21C3E14E00B807B5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +353,7 @@
 		};
 		23C7B2CB21C3E14F00B807B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75A38DD29DD7E5F429FB327B /* Pods-PagerProblem.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +371,7 @@
 		};
 		23C7B2CC21C3E14F00B807B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D9CCA02CB78A3DF4CA5C821 /* Pods-PagerProblem.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
