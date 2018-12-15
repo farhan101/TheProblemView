@@ -23,7 +23,10 @@ class TheProblemView: UIViewController, IndicatorInfoProvider {
     }
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        let vu = ViewToAdd(frame: self.view.frame, yFactor: 2.0)
+        //HELP: https://stackoverflow.com/questions/53782932/xlpagertabstrip-dynamically-adding-subviews-to-tabs-view-controllers-wouldnt
+        
+        //let vu = ViewToAdd(frame: self.view.frame, yFactor: 2.0)
+        let vu = ViewToAdd(frame: self.view.bounds, yFactor: 2.0)
         self.view.addSubview(vu)
     }
 
